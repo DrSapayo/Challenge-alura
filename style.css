@@ -1,0 +1,88 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #444444;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2c8528;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: black solid 3px;
+}
+
+.principal {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    border: 3px solid rgb(0, 255, 179);
+}
+
+.principal_input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.principal_parrafo {
+    color: #555;
+}
+
+.principal_btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #2c8528;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.principal_btn:hover {
+    background-color: #49cc45;
+}
+
+.principal_div_inicial,
+.principal_div_avanzado {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.principal_div_img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-color: #2c8528;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: black solid 3px;
+}
+
+#caja_copiar {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#error {
+    color: red;
+    font-weight: bold;
+}

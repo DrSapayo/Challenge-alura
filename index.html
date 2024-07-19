@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body class="body" onload=iniciales()>
+    <header class="header">
+        <h1>¡Encriptador de texto!</h1>
+    </header>
+    <main class="principal">
+        <input id="input" class="principal_input" placeholder="Digite su texto aqui">
+        <p class="principal_parrafo">
+            Nota: No se aceptarán ni mayúsculas ni caracteres especiales.
+        </p>
+        <a class="principal_btn" id="btnEncriptar" onclick=clic()>Encriptar</a>
+        <a class="principal_btn" id="btnDesencriptar" onclick=clic2()>Desencriptar</a>
+        <div id="div_inicial" class="principal_div_inicial">
+            <img class="principal_div_img" src="img/lupa.jpeg">
+            <p>
+                No se han encontrado registros!
+            </p>
+        </div>
+        <div id="div_final" class="principal_div_avanzado">
+            <input disabled id="caja_copiar">
+        </div>
+        <div id="div_final_2" class="principal_div_avanzado">
+            <a class="principal_btn" onclick=copiar()>
+                Copiar
+            </a>
+        </div>
+        <div id="div_final_error" class="principal_div_avanzado">
+            <p id="error">
+            </p>
+        </div>
+    </main>
+    <footer class="footer">
+        Hecho por Julian Camilo Castillo Serrato con la asesoria de Alura LATAM! 
+    </footer>
+</body>
+</html>
