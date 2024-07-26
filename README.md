@@ -27,7 +27,7 @@ El proceso de desencriptación simplemente invierte estas reglas, devolviendo el
 
 ## Captura de Pantalla
 
-![Encriptador de Texto](img/encriptador_pantalla.png)
+![Encriptador de Texto](imagen_2024-07-25_203852327.png)
 
 ## Tecnologías Utilizadas
 
