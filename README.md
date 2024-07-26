@@ -27,7 +27,7 @@ El proceso de desencriptación simplemente invierte estas reglas, devolviendo el
 
 ## Captura de Pantalla
 
-![Encriptador de Texto](imagen_2024-07-25_203852327.png)
+![Encriptador de Texto](img/imagen_2024-07-25_203852327.png)
 
 ## Tecnologías Utilizadas
 
@@ -65,4 +65,8 @@ Para ejecutar este programa en tu máquina local:
 
 ## Desarrollado por:
 
-![Encriptador de Texto](imagen_2024-07-25_203852327.png)
+![Encriptador de Texto](img/Julian.jpg)
+
+### Con la ayuda de:
+
+![Encriptador de Texto](img/alura_logo.jpg)
